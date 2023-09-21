@@ -1,0 +1,149 @@
+body {
+        
+    color: white;
+}
+body::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width:  100%;
+    top: 0;
+    bottom: 0;
+    margin: 0px -7px;
+    background: url(./IMG/Background.jpg) center top/cover;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+/* Container Section */
+.container {
+    height: 140px;
+    width: 100vw;
+    /* border: 2px solid  red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* Designing for all Sections */
+.item {
+    /* border: 2px solid green; */
+    width: auto;
+}
+
+/* Logo Section */
+#logo {
+    
+}
+
+#logo img {
+    height: 9rem;
+}
+
+#logo p {
+    margin-top: 0px;
+    font-family: 'Knewave', cursive;
+    font-size: 1.4rem;
+}
+
+/* Navbar Section */
+#navbar {
+    width: 600px;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    margin: 0px 23px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar a:hover,
+#navbar a.active {
+    text-decoration: underline;
+    color: darkgray;
+
+}
+
+/* Buttons Section */
+#btn button {
+    margin: 14px 13px;
+    height: 2.4rem;
+    width: 100px;
+    cursor: pointer;
+}
+
+#btn a {
+    /* text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: black;*/
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+button {
+    margin: 5px 5px;
+    padding: 6px;
+    background-color: black;
+    border: 2px solid rgb(135, 130, 130);
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+/* Formgroup */
+.formgroup {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    width: 30rem;
+    height: 27rem;
+    margin: 70px 161px;
+    font-family: 'Knewave', cursive;
+}
+
+.formgroup form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formgroup input {
+    margin-top: 11px;
+    margin-left: 90px;
+    padding: 10px;
+    width: 20rem;
+    border: 1px solid white;
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Knewave', cursive;
+}
+
+#bn{
+    margin: 5px 5px;
+    padding: 6px;
+    background-color: black;
+    border: 2px solid rgb(135, 130, 130);
+    border-radius: 10px;
+    color: white;
+    margin-left: 90px;
+    width: 323px;
+    cursor: pointer;
+}
+.formgroup #bn:hover{
+    background-color: grey;
+}
+.formgroup h4{
+    text-align: center;
+}

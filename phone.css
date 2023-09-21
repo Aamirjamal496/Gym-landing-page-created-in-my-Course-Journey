@@ -1,0 +1,48 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* logo Styling */
+body::before{
+    width: 100vh;
+    height: 100vw;
+    background: url(/IMG/Background.jpg)no-repeat cover;
+}
+#logo img {
+    width: 5rem;
+    height: 5rem;
+}
+#logo p {
+    font-size: 0.6rem;
+}
+/* Buttons Styling */
+#btn button {
+    margin: 5px 1rem;
+    height: 2rem;
+    width: 96px;
+}
+/* Navbar Styling */
+#navbar ul{
+    margin: 3rem 0rem;
+    /* justify-content: center; */
+}
+ul li a {
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+/* Formgroup Styling */
+.formgroup{
+    padding: .5rem;
+    height: 22rem;
+    width: 16rem;
+    margin: 6rem 4rem;
+}
+.formgroup input{
+    width: 12rem;
+    margin-left: 2.5rem;
+}
+.formgroup #bn{
+    width: 13rem;
+    margin-left: 2.5rem;
+}

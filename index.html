@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Using Flex box</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" media="screen and (max-width:1011px)" href="./Phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rammetto+One&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <section class="item" id="logo">
+            <img src="./IMG/H logo.jpg" alt="Fitness Website">
+            <p>Aamir Fitness</p>
+        </section>
+        <section class="item" id="navbar">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </section>
+        <section class="item" id="btn">
+            <button><a href="#" class="buton">Call Us Now</a></button>
+            <button><a href="#" class="buton">Email Us</a></button>
+        </section>
+    </div>
+    <section class="formgroup">
+        <h4>JOIN THE BEST GYM FOR BODYBUILDING</h4>
+        <form action="backend.php">
+            <input type="text" name="name" placeholder="Enter Your First Name">
+            <input type="text" name="name" placeholder="Enter Your Last Name">
+            <input type="number" name="phone number" placeholder="Enter Your Phone Number">
+            <input type="text" name="address" placeholder="Enter Your Addres">
+            <input type="email" name="email" placeholder="Enter Your Email">
+            <input type="button" value="Submit" id="bn">
+        </form>
+    </section>
+</body>
+
+</html>
